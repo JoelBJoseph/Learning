@@ -94,9 +94,31 @@ section
     cursor: pointer;
 }
 
+.subs
+{
+    
+    font-size: larger;
+    display: grid;
+    grid-template-columns: 120px 150px 150px;
+    margin-top: 100px;
+}
+
 .subs h5
 {
-    top: 0;
+    font-size: 13px;
+}
+
+
+.no-of-artist
+{
+    
+    margin-left: 52px;
+    height: 70px;
+}
+
+.no-of-users
+{
+    margin-left: 55px;
 }
 
 .vertical-line 
@@ -125,6 +147,7 @@ section
     grid-template-columns: 140px 150px;
     grid-template-rows: 30px;
     font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
 }
 
 .buy
